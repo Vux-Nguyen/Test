@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nút Yes Hiện Văn Bản</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #message {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <button id="yesButton">Yes</button>
+    <p id="message">Pà là ng xinh đẹp nhất thế gian này</p>
+
+    <script>
+        document.getElementById("yesButton").addEventListener("click", function() {
+            document.getElementById("message").style.display = "block";
+        });
+    </script>
+</body>
+</html>
